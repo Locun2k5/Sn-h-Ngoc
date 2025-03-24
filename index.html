@@ -14,16 +14,18 @@
             align-items: center;
             height: 100vh;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
         }
 
         .message,
         .thank-you-message {
-            font-size: 40px;
+            font-size: clamp(20px, 5vw, 28px);
             color: #000000;
-            text-align: center;
             font-weight: bold;
             display: none;
-            width: 60%;
+            max-width: 80%;
             line-height: 1.5;
         }
 
@@ -49,24 +51,24 @@
         .envelope {
             background: #a74f4f;
             border: 3px solid #ffcccb;
-            padding: 30px;
-            width: 300px;
-            height: 180px;
+            padding: 20px;
+            width: clamp(150px, 50vw, 300px);
+            height: clamp(90px, 30vw, 180px);
             cursor: pointer;
             text-align: center;
-            line-height: 180px;
+            line-height: clamp(90px, 30vw, 180px);
             color: white;
             font-weight: bold;
             border-radius: 10px;
             margin-bottom: 20px;
-            font-size: 48px;
+            font-size: clamp(24px, 6vw, 48px);
         }
 
         .small-heart {
-            width: 150px;
-            height: 150px;
-            line-height: 150px;
-            font-size: 60px;
+            width: clamp(75px, 25vw, 150px);
+            height: clamp(75px, 25vw, 150px);
+            line-height: clamp(75px, 25vw, 150px);
+            font-size: clamp(30px, 6vw, 60px);
             border-radius: 50%;
             background: #ffcccb;
             display: flex;
@@ -86,36 +88,27 @@
             class="word">Nhật!</span> 🎉<br>
         <span class="word">Hôm</span> <span class="word">nay</span> <span class="word">là</span> <span
             class="word">một</span> <span class="word">ngày</span> <span class="word">đặc</span> <span
-            class="word">biệt,</span>
-        <span class="word">ngày</span> <span class="word">cậu</span> <span class="word">bước</span> <span
-            class="word">đến</span> <span class="word">thế</span> <span class="word">giới</span> <span
-            class="word">này</span>
-        <span class="word">và</span> <span class="word">mang</span> <span class="word">theo</span> <span
-            class="word">biết</span> <span class="word">bao</span> <span class="word">niềm</span> <span
-            class="word">vui,</span>
-        <span class="word">yêu</span> <span class="word">thương</span> <span class="word">cho</span> <span
+            class="word">biệt,</span> <span class="word">ngày</span> <span class="word">cậu</span> <span
+            class="word">bước</span> <span class="word">đến</span> <span class="word">thế</span> <span
+            class="word">giới</span> <span class="word">này</span> <span class="word">và</span> <span
+            class="word">mang</span> <span class="word">theo</span> <span class="word">biết</span> <span
+            class="word">bao</span> <span class="word">niềm</span> <span class="word">vui,</span> <span
+            class="word">yêu</span> <span class="word">thương</span> <span class="word">cho</span> <span
             class="word">những</span> <span class="word">người</span> <span class="word">xung</span> <span
             class="word">quanh.</span><br>
         <span class="word">Ở</span> <span class="word">tuổi</span> <span class="word">mới,</span> <span
-            class="word">tớ</span> <span class="word">mong</span> <span class="word">rằng</span>
-        <span class="word">cậu</span> <span class="word">sẽ</span> <span class="word">luôn</span> <span
-            class="word">mạnh</span> <span class="word">mẽ</span>
-        <span class="word">và</span> <span class="word">kiên</span> <span class="word">định</span> <span
-            class="word">với</span> <span class="word">những</span> <span class="word">ước</span> <span
-            class="word">mơ</span> <span class="word">của</span> <span class="word">mình.</span><br>
+            class="word">tớ</span> <span class="word">mong</span> <span class="word">rằng</span> <span
+            class="word">cậu</span> <span class="word">sẽ</span> <span class="word">luôn</span> <span
+            class="word">mạnh</span> <span class="word">mẽ</span> <span class="word">và</span> <span
+            class="word">kiên</span> <span class="word">định</span> <span class="word">với</span> <span
+            class="word">những</span> <span class="word">ước</span> <span class="word">mơ</span> <span
+            class="word">của</span> <span class="word">mình.</span><br>
         <span class="word">Chúc</span> <span class="word">cậu</span> <span class="word">luôn</span> <span
             class="word">tràn</span> <span class="word">đầy</span> <span class="word">sức</span> <span
-            class="word">khỏe,</span>
-        <span class="word">hạnh</span> <span class="word">phúc</span> <span class="word">và</span> <span
-            class="word">thành</span> <span class="word">công</span> <span class="word">trong</span> <span
-            class="word">mọi</span> <span class="word">lĩnh</span> <span class="word">vực.</span>
-        <span class="word">Hãy</span> <span class="word">cứ</span> <span class="word">sống</span> <span
-            class="word">hết</span> <span class="word">mình,</span>
-        <span class="word">yêu</span> <span class="word">thương</span> <span class="word">bản</span> <span
-            class="word">thân</span> <span class="word">nhiều</span> <span class="word">hơn</span>
-        <span class="word">và</span> <span class="word">tận</span> <span class="word">hưởng</span> <span
-            class="word">từng</span> <span class="word">khoảnh</span> <span class="word">khắc</span> <span
-            class="word">thật</span> <span class="word">ý</span> <span class="word">nghĩa 🥳</span><br>
+            class="word">khỏe,</span> <span class="word">hạnh</span> <span class="word">phúc</span> <span
+            class="word">và</span> <span class="word">thành</span> <span class="word">công</span> <span
+            class="word">trong</span> <span class="word">mọi</span> <span class="word">lĩnh</span> <span
+            class="word">vực.</span><br>
         <div class="small-heart" onclick="redirectToFacebook()">🎂</div>
     </div>
     <div class="thank-you-message">Cảm ơn cậu đã đọc bức thư của tớ 😊</div>
@@ -131,8 +124,9 @@
                 }, 0);
             });
         }
+
         function redirectToFacebook() {
-            window.location.href = "https://www.tiktok.com/@cheemsmeme124/video/7451113552158477586?_r=1&_d=secCgYIASAHKAESPgo8pHQkvfnmaUBoHHOhgVTsprXrzyRjG6%2FClL8s7OSTZCQ3pypsCRSnOVZsYWXmmpbNc04LxGeHzf1v%2FXpdGgA%3D&_svg=1&checksum=bdd93d1ad08e71f0ea1e716c118b82557d031c2d3e14ae743d2eb54cba7cc955&cover_exp=v1&link_reflow_popup_iteration_sharer=%7B%22click_empty_to_play%22%3A1%2C%22follow_to_play_duration%22%3A-1%2C%22dynamic_cover%22%3A1%2C%22profile_clickable%22%3A1%7D&mid=7451113580428806929&preview_pb=0&region=VN&sec_user_id=MS4wLjABAAAAsBMN9kkpoKHIUP5XyfrEdb5qbYBWGlvAd333YeqP9hfOMPtwvMkS8Oot7nOWgkdQ&share_app_id=1180&share_item_id=7451113552158477586&share_link_id=AE76BD39-2D95-401C-A773-FA8B9B56261A&sharer_language=vi&social_share_type=0&source=h5_t&timestamp=1742820843&tt_from=copy&u_code=e04d9c893ka5cj&ug_btm=b6880%2Cb2878&user_id=7060876029489710082&utm_campaign=client_share&utm_medium=ios&utm_source=copy";
+            window.location.href = "https://www.tiktok.com/@cheemsmeme124/video/7451113552158477586";
         }
     </script>
 </body>
